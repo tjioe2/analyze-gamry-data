@@ -152,4 +152,5 @@ def plot_cv(filepath, current_unit="mA", area_cm2=None, cycles=None):
 
 if __name__ == "__main__":
     dta_file = r"D:\\Gamry data\59.CV_5mM NaCl_K5.DTA"
-    plot_cv(dta_file, current_unit="uA", area_cm2=None, cycles=[1])
+    plot_cv(dta_file, current_unit="uA", area_cm2=None, cycles=[2])
+
